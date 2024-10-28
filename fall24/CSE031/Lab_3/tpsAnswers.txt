@@ -1,0 +1,23 @@
+TPS 1:
+1) stack - local variables, heap - dynamically allocated variables,
+static memory - global variables
+2a) 3 variables
+2b) 2 pointers. one is an int pointer the other is a pointer
+to an int pointer
+2c)stack
+2d)heap
+
+
+TPS 2:
+1) NodeStruct.c is a program that creates one node(the head) of a linked list
+3)head has a somewhat different address but everything that head points to
+is in order. for example fValue is 4 bytes ahead of iValue and next is 
+4 bytes ahead of fValue.
+
+
+Individual Assignment 1:
+1a)we need to pass the size of the array because we create a new array
+s_arr and we want it to be the exact size before we start copying to it. 
+
+1b)the original array is not modified
+1c)because we are comparing the sorted array to the unsorted one so wee need both

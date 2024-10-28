@@ -1,0 +1,18 @@
+ASSIGNMENT 1
+------------
+
+1)line 25 caused the segmentation fault
+2)we add the & character before input because we were using an address
+3)the bug was that we were passing by value and not by reference.
+4)we fix it by passing in a pointer to the function and then using the address sum in the function call
+
+
+ASSIGNMENT 2
+------------
+
+1)the output is expected as it appends the two strings correctly
+2)the output is not expected. the bug is that the characters of the
+second run just take the first six slots of the previous result.
+3) This output is not expected. I think this happens because there is only enough space for the 
+amount of characters that were in the first inputs and resluting
+combined string. 

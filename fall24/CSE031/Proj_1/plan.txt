@@ -1,0 +1,44 @@
+Enter the word to search: Hello
+
+Printing puzzle before search:
+W E B M O
+I L H L L
+M L Z E L
+M Y E K O
+A O A B A
+
+0  1  2  3  4
+5  6  7  8  9
+10 11 12 13 14
+15 16 17 18 19
+20 21 22 23 24
+
+
+Brute force:
+I go through 2d array until i find the first character in the word I am searching for.
+
+I then check each of the surrounding characters if it is the next letter.
+    If i find the next letter I keep going in this pattern until i find all of the letters
+    If at any point i go through all of the letters without finding the next one, I move up to the previous letter.
+
+This plan will come to a solution but it seems pretty slow. it is >> than O(n^2)
+
+
+Hash table?
+I go through the entire array one time and form a hash table for the puzzle.
+
+I check if the first letter is in the hash table.
+If it is i go to next letter.
+I check if the next letter is in the has table and if it is adjacent to the first letter
+How can i check if it is adjacent to the first letter?
+
+Array??
+i could model it as an array and that would be pretty quick
+
+
+IDK what data structure yet, but I need to model the data in a clever way to make the solution fast.
+If not its gonna be sooo slow
+
+what datastructures do I know that might apply to this?
+hash table
+queue

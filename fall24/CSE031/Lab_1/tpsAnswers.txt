@@ -1,0 +1,26 @@
+TPS 1
+1) Cody Peng Kevin Flores Isaiah Nguyen
+2)https://support.apple.com/guide/terminal/welcome/mac
+  https://ubuntu.com/tutorials/command-line-for-beginners#1-overview
+  https://learn.microsoft.com/en-us/windows/terminal/
+
+TPS 2:
+1) command + space; iterm2
+  a)yes
+  b)run server on one terminal and a frontend on the other
+2) l / ls / la command
+3) cd ~/Desktop
+4) mkdir CSE31
+
+
+TPS 3:
+1) https://codeforces.com/blog/entry/88063
+   https://cs.millersville.edu/~gzoppetti/InstallingGccMac.html
+
+3) clang main.c // gcc main.c
+4) it returns no error and there is an executable i can run now
+5) -c flag compiles a C file to an object file: .o
+6) -g flag includes extra details into the executable to make debugging easier
+7) add the -o with whatever name you want
+8) it creates an executable called a.out
+9) ./a.out 

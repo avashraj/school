@@ -1,0 +1,17 @@
+TPS 1:
+1)i expect two to be printed out
+2)i expect the two in hex to be printed out
+3)it prints out 44434241
+4) it prints out 2. i am surprised because i expected out the same output as before
+5a) there was one array allocated
+ b) they are pointing to the same location
+ c) yes they do: 0x16f3cf2b8 0x16f3cf2b8
+6) difference is 4 meaning that since it is an int it is going by 4 bytes
+8) difference is 1 meaning that since it is a char, it is going up by 1 byte
+10)c accesses memory based on the type of the pointer/array
+
+TPS 2:
+1)line 8 creates an array of int pointers (pointer to pointer)
+2)*(arr + i)
+3) *(*(arr + i) + j)
+4) we need to pass the size so that we know where to stop the loop. if not we will go out of bounds and have error

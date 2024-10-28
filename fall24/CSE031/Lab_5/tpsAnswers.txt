@@ -1,0 +1,31 @@
+TPS 1:
+1) MIPS stands for MIPS Assembler and Runtime Simulator
+
+5a) To load an assembly file, click file in the menu then click open. 
+5b) To assemble (compile) the program, click run then click assemble
+5c) To run the assembled program, click the green play button.
+5d) You may not run a program before assembling it
+5e) To run an assembled program line by line, you click the green play button
+with a 1.
+5f) To run a program again after it has finished running, you can reset with 
+the green double back button then run it again. You can also go back 1 step 
+at a time with the blue back button with a 1.
+
+TPS 2:
+1) .data directive starts all of the variable declarations needed
+.text directive starts the actual code
+.word directive allocates memory
+
+2) Line 10 compares $t3 to $t0 and if they are equal, branches to finish
+3) Line 15 jumps back up to fib to restart the fib procces
+4) To set a breakpoint, after assembling, you can pick the line to put a 
+breakpoint in the execute tab
+5) After a breakpoint, you can press the play button to continue running
+the code. You can also use the play button with 1 to step through the code.
+6) The content of a register can be found on the right side on the registers 
+tab. You can click on the register you want to modify to modify the register
+while it is running.
+7) 13 is stored at $t3.
+8) Syscall is used to make system calls in mips like I/O. You can use syscall
+by putting what you want to do in $V0
+

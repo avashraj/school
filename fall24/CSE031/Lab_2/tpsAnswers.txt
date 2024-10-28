@@ -1,0 +1,21 @@
+TPS 2:
+1) to compile c files so you can debug it, you need the -g flag
+    clang -g -o punish
+2) lldb punish 
+i use the lldb command with the executable name to use the debugger with the correct executable
+3) once punish is loaded i can use `run` to run through program
+4) Breakpoints are markers that tell debuggers to pause programs at specific places in the code
+    A breakpoint can be set if you use the set --file punishment.c --line 23
+5)to run the program line by line use `next`
+6)to see variable names use `print variable_name` or ` p variable_name`
+7) continue command to let the program finish running
+8)quit or q to exit from lldb
+
+TPS 3:
+1)4 variables, 2 int pointers, 2 int varaibles
+2)the two int variables have garbage values because they have not been initialized
+the pointer variables will have random memory addresses. 
+3) to prevent x,y, and arr from having unexpected values, we can initialize them and give them some value(s)
+6)  printf("%d", *arr++);
+}
+8)the resulting addresses are the same which makes sense

@@ -1,0 +1,4 @@
+its cuz if input - count == 0:
+shit does not work properly
+neeed anohter if statement for this case
+

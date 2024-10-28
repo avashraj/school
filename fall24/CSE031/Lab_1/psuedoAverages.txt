@@ -1,0 +1,40 @@
+int oddsum
+int evensum
+int numodd
+int numeven
+
+while input is not zero
+
+  validate input to make sure it is int
+
+  if input is odd
+    oddsum = oddsum + input
+    numodd ++
+  else
+    evennum = evensum + input
+    numeven ++
+
+print oddsum / numodd
+print evensum / numeven
+
+
+-------------------------------------------------------
+psuedocode for printing in correct format
+
+for every input
+capture last two digits by mod 100
+
+if 11,12,13 string is th
+else
+  capture last digit by mod 10
+  if 1 st
+  if 2 nd
+  if 3 rd
+  else th
+
+--------------------------------------------------------
+psuedocode for summing digits
+while input > 0
+sum = 0
+sum += input mod 10
+input = input mod 10
