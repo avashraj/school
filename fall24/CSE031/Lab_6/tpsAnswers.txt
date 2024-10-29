@@ -1,0 +1,23 @@
+TPS 1:
+1)
+text: 0x00400000
+data: 0x10010000
+
+2) The difference is that basic does not contain block names
+3) The difference is 32. 
+0x10010000 vs 0x10010020
+4) 8 locations per column
+5) 4 times the number of columns
+6) m:	.word 20
+7) 0x10100000
+8) str1: .asciiz "I love CSE31!"
+9) 0x10100000
+10) I am surprised because I would have expected the characters to be in order
+11) li $v0, 4
+    la $a0, str1
+    syscall
+12) It loads the address into a register
+
+TPS 2:
+1) It is better to have fewer instructions because it will make processors faster 
+overall if they have fewer, but more optimized instructions
