@@ -1,0 +1,30 @@
+TPS 1:
+
+1)A procedure is a block of code that does something. A function is a procedure with inputs and outputs
+A method is a function associated with a class or an object
+
+4) line 20. this line adds the values of $a0 and $a1 and puts it in $v0
+
+5) if we have a label, we can jump back to where it should be
+
+6) line 11 saves the return address. the value of 0 is saved. this value does not make sense
+
+7) when we try to run the program it crashes due to a invalid program counter value
+
+8) the correct address is 0x00400020
+
+9) the correct address is saved
+
+10) 15
+
+11) jal operator
+
+
+TPS 2:
+1) 38
+3) when main calls sum, it knows where to go after because of jal
+the address returning to main changes to the address returning to sum
+
+4) we can use the stack to store values
+5) it gets overwritten by m. we can fix this by saving it to the stack
+6)
