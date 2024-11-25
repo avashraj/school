@@ -1,0 +1,10 @@
+TPS 1)
+
+5) we do not need n at the start since we are getting the number from the user and putting it in $t3
+
+TPS 2)
+4) we will use $v3
+5) we expect the returned value to be saved in $v0. since syscall uses this as well, we can save the value of $v0 
+in a different register
+7) there is space for 3 integers
+10) we need $a0 to be saved becuase it contains the input argument
